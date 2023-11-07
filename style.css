@@ -222,6 +222,9 @@ a {
     height: 170px;
     border: 1px solid black;
     border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
 }
 
 #bottomleftgrid{
@@ -266,4 +269,94 @@ a {
     height: 170px;
     border: 1px solid crimson;
     border-radius: 30px;
+}
+
+
+
+#blackcardleft {
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#blackcardleft i {
+    font-size: 80px;
+}
+
+#blackcardleft p {
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#blackcardright{
+    width: 50%;
+    height: 100%;
+    color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#blackcardright i {
+    font-size: 140px;
+}
+
+#progress {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+#bottomleftgridcardone{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    row-gap: 15px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #7896FF;
+}
+
+#bottomleftgridcardone i {
+    font-size: 70px;
+}
+
+#bottomleftgridcardone p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #36467d;
+}
+
+
+
+
+#bottomleftgridcardtwo{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    row-gap: 15px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #FEA26E;
+}
+
+#bottomleftgridcardtwo i {
+    font-size: 70px;
+}
+
+#bottomleftgridcardtwo p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #a0623e;
 }
