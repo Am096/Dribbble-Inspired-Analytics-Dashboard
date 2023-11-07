@@ -24,7 +24,7 @@ a {
 
 #main {
     width: 90%;
-    height: 100%;
+    /* height: 100%; */
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -179,7 +179,91 @@ a {
     border: 1px solid #E9E9E9;
 }
 
-#grids {
+/* #grids {
     width: 100%;
-    
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+
+#leftgrid {
+    width: 40%;
+    height: 80px;
+    border: 1px solid cadetblue;
+}
+
+#midgrid {
+    width: 20%;
+    height: 80px;
+    border: 1px solid seagreen;
+}
+
+#rightgrid {
+    width: 40%;
+    height: 80px;
+    border: 1px solid black;
+} */
+
+#grids {
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#leftgrid {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#blackcard {
+    width: 450px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+#bottomleftgrid{
+    display: flex;
+    gap: 0 35px;
+}
+
+.smallercards {
+    width: 200px;
+    height: 200px;
+    border: 1px solid chartreuse;
+    border-radius: 30px;
+} 
+
+
+
+
+
+#midgrid {
+    width: 200px;
+    height: 430px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+
+#rightgrid {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#toprightgrid {
+    width: 450px;
+    height: 170px;
+    border: 1px solid crimson;
+    border-radius: 30px;
+}
+
+#bottomrightgrid {
+    width: 450px;
+    height: 170px;
+    border: 1px solid crimson;
+    border-radius: 30px;
 }
