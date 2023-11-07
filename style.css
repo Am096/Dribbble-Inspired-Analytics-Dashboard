@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(237, 235, 235);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: #101010;
+}
+
+#main {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo h3{
+    padding-left: 1px;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+#logo i {
+    font-size: 60px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: bold;
+    padding:0 15px;
+}
+
+
+#nav a:hover{
+    opacity: 1;
+    font-weight: bold;   
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login button {
+    color: white;
+    background-color: black;
+    padding: 8px 30px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+#login button:hover {
+    cursor: pointer;
+}
+
+#hero {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+
+}
+
+#left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+#left h1 {
+    color: 101010;
+    font-size: 70px;
+}
+
+#left p {
+    width: 65%;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 45px;
+    font-weight: 700;
+}
+
+#right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#leftcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#leftcontent i{
+    font-size: 55px;
+}
+
+#leftcontent h1 {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+#leftcontent p {
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+#rightcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 45px;
+}
+
+#rightcontent i{
+    font-size: 55px;
+}
+
+#rightcontent h1 {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+#rightcontent p {
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.midborder {
+    border: 1px solid #E9E9E9;
+}
+
+#grids {
+    width: 100%;
+    
+}
