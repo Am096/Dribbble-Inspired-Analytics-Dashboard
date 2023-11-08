@@ -28,6 +28,7 @@ a {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 30px;
 }
 
 #header {
@@ -47,6 +48,8 @@ a {
     padding-left: 1px;
     font-size: 30px;
     font-weight: 700;
+    color: #000;
+    text-shadow: 0.5px 0 #000;
     
 }
 
@@ -112,6 +115,7 @@ a {
 #left h1 {
     color: 101010;
     font-size: 70px;
+    text-shadow: 2px 0 #000;
 }
 
 #left p {
@@ -120,6 +124,8 @@ a {
     text-align: justify;
     margin-top: 45px;
     font-weight: 700;
+    color: #000;
+    text-shadow: 0.5px 0 #000;
 }
 
 #right{
@@ -144,6 +150,7 @@ a {
     font-family: 'Roboto', sans-serif;;
     font-size: 40px;
     font-weight: 500;
+    text-shadow: 1px 0 #000;
 }
 
 
@@ -167,6 +174,7 @@ a {
     font-family: 'Roboto', sans-serif;;
     font-size: 40px;
     font-weight: 500;
+    text-shadow: 1px 0 #000;
 }
 
 
@@ -175,34 +183,18 @@ a {
     opacity: 0.9;
 }
 
+#leftcontenttext p {
+    margin-top: 5px;
+}
+
+#rightcontenttext p {
+    margin-top: 5px;
+}
+
 .midborder {
     border: 1px solid #E9E9E9;
 }
 
-/* #grids {
-    width: 100%;
-    display: flex;
-    margin-top: 90px;
-    justify-content: space-between;
-}
-
-#leftgrid {
-    width: 40%;
-    height: 80px;
-    border: 1px solid cadetblue;
-}
-
-#midgrid {
-    width: 20%;
-    height: 80px;
-    border: 1px solid seagreen;
-}
-
-#rightgrid {
-    width: 40%;
-    height: 80px;
-    border: 1px solid black;
-} */
 
 #grids {
     margin: 80px;
@@ -214,11 +206,11 @@ a {
 #leftgrid {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
 }
 
 #blackcard {
-    width: 450px;
+    width: 410px;
     height: 170px;
     border: 1px solid black;
     border-radius: 30px;
@@ -229,43 +221,43 @@ a {
 
 #bottomleftgrid{
     display: flex;
-    gap: 0 35px;
+    gap: 0 30px;
 }
 
 .smallercards {
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 170px;
     border: 1px solid chartreuse;
     border-radius: 30px;
 } 
 
 
-
-
-
 #midgrid {
-    width: 200px;
-    height: 430px;
+    width: 240px;
+    height: 380px;
     border: 1px solid black;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #cccaca;
 }
 
 
 #rightgrid {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
 }
 
 #toprightgrid {
-    width: 450px;
+    width: 410px;
     height: 170px;
     border: 1px solid crimson;
     border-radius: 30px;
 }
 
 #bottomrightgrid {
-    width: 450px;
+    width: 410px;
     height: 170px;
     border: 1px solid crimson;
     border-radius: 30px;
@@ -360,3 +352,79 @@ a {
     font-weight: bold;
     color: #a0623e;
 }
+
+
+#midgridbtn {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+#midgridbtn button {
+    background-color: #000;
+    color: #E9E9E9;
+    width: 60px;
+    border-radius: 10px;
+    padding: 2px 8px;
+    margin-left: 20px;
+    
+}
+
+#midgridhero {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+
+#midgridhero h2 {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: #000;
+    text-shadow: 1px 0 #000;
+}
+
+#midgridhero p{
+    font-size: 14px;
+    padding-left: 20px;
+    color: #000;
+    text-shadow: 0.5px 0 #000;
+}
+
+
+#midgridcard {
+    width: 100%;
+    height: 50%;
+}
+
+#midgridblackcard {
+    width: 190px;
+    height: 150px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#midgridblackcard p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    color: #585858;
+    text-shadow: 0.5px 0 #585858;
+}
+
+#midgridblackcard h2 {
+    color: #E9E9E9;
+}
+
+
