@@ -28,7 +28,7 @@ a {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 #header {
@@ -227,7 +227,6 @@ a {
 .smallercards {
     width: 190px;
     height: 170px;
-    border: 1px solid chartreuse;
     border-radius: 30px;
 } 
 
@@ -235,7 +234,6 @@ a {
 #midgrid {
     width: 240px;
     height: 380px;
-    border: 1px solid black;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -252,15 +250,19 @@ a {
 #toprightgrid {
     width: 410px;
     height: 170px;
-    border: 1px solid crimson;
     border-radius: 30px;
+    display: flex;
+    background-color: #FEA26E;
 }
 
 #bottomrightgrid {
     width: 410px;
     height: 170px;
-    border: 1px solid crimson;
     border-radius: 30px;
+    background-color: #7896FF;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 
@@ -369,7 +371,6 @@ a {
     border-radius: 10px;
     padding: 2px 8px;
     margin-left: 20px;
-    
 }
 
 #midgridhero {
@@ -428,3 +429,67 @@ a {
 }
 
 
+#toprightcard-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px
+}
+
+#toprightcard-left h2 {
+    text-shadow: 1px 0 #000;
+}
+
+#toprightcard-left h3 {
+    color: #a0623e;
+    opacity: 0.6;
+    font-size: 20px;
+    text-shadow: 0.5px 0 #a0623e;
+}
+
+#toprightcard-right {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#toprightcard-right i {
+    font-size: 80px;
+    padding-top: 5px;
+}
+
+#toprightcard-right p {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 30px;
+    color: #000;
+    text-shadow: 0.5px 0 #000;
+    opacity: 0.7;
+}
+
+#bottomrightcard-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#bottomrightcard-left h2 {
+    padding-top: 20px ;
+    padding-left: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 1px 0 #000;
+}
+
+#bottomrightcard-right h3 {
+    padding-top: 70px;
+    padding-left: 35px;
+    opacity: 0.8;
+    text-shadow: 0.3px 0 #000;
+    font-size: 18px;
+}
